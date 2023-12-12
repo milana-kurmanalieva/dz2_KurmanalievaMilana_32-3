@@ -46,10 +46,10 @@ const animateIn = ()=> {
 animateIn()
 
 //Home work 2 part 2
-const btnStart = document.getElementById('start')
-const btnStop = document.getElementById('stop')
-const btnReset = document.getElementById('reset')
-const timeBlock = document.getElementById('secondsS')
+const btnStart = document.querySelector('#start')
+const btnStop = document.querySelector('#stop')
+const btnReset = document.querySelector('#reset')
+const timeBlock = document.querySelector('#secondsS')
 
 let timerInterval
 let timerRunning = false
